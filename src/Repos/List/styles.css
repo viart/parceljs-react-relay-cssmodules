@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0;
+}
+
+.item {
+  flex: 1 1 auto;
+  width: 38%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.selected {
+  opacity: 0.5;
+}
+
+@media(min-width: 700px) {
+  .item {
+    width: 23%;
+  }
+}

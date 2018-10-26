@@ -1,0 +1,6 @@
+- go to https://github.com/settings/tokens and create a token with `admin:org, repo` permissions
+- put it to [config.js](./src/config.js#L3)
+- `npm i`
+- `npm run relay`
+- `npm start`
+- http://localhost:1234

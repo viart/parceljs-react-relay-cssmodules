@@ -1,0 +1,18 @@
+.searchField input {
+  padding-left: 40px;
+  padding-right: 15px;
+  border-radius: 30px;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin: 12px;
+  font-size: 16px;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

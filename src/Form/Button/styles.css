@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  min-width: 30px;
+  min-height: 30px;
+  line-height: 30px;
+}
+
+.kind-primary {
+  box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.4), inset 0 -1px 0 rgba(16, 22, 26, 0.2);
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) left no-repeat, center no-repeat #137cbd;
+}
+
+.kind-primary:hover {
+  box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.4), inset 0 -1px 0 rgba(16, 22, 26, 0.2);
+  background-color: #106ba3;
+}
+
+.kind-primary:active {
+  box-shadow: inset 0 0 0 1px rgba(16, 22, 26, 0.4), inset 0 1px 2px rgba(16, 22, 26, 0.2);
+  background-color: #0e5a8a;
+  background-image: none;
+}

@@ -1,0 +1,18 @@
+.searchField {
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.octocat {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  width: 130px;
+  margin: 20px auto;
+}
